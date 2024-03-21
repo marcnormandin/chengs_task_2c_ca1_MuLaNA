@@ -2,7 +2,7 @@
 
 This is a set of neuroscience analysis codes written mostly in MATLAB. Different projects use a common set of codes and this repository is that set.
 
-***This version of MuLaNA is compatible with our Cheng's Task 2C CA1 paper and will be kept frozen to not break that compatibility***
+***This version of MuLaNA is used for our Cheng's Task 2C CA1 paper and will be kept frozen to not break compatibility***
 
 The codes work with the following experimental data sources:
 
