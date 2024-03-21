@@ -119,10 +119,6 @@ Each experiment requires a file named 'experiment_description.json'. This file c
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is PRIVATE to Muzzio Lab members. All Rights Reserved 2020.
-
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
