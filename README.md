@@ -2,6 +2,15 @@
 
 This is a set of neuroscience analysis codes written mostly in MATLAB. Different projects use a common set of codes and this repository is that set.
 
+The codes work with the following experimental data sources:
+
+* Tetrode neural data acquired by Neuralynx Cheetah.
+* Calcium imaging neural data acquired by the UCLA Miniscope.
+* Behaviour data acquired by FreezeFrame
+* Behaviour data acquired by Limelight
+
+As an example, the calcium data is processed using CNMF-e, which produces traces, inferred spikes and spatial footprints. CellReg is then used to register cells across sessions (days). The animal behaviour videos are processed using DeepLabCut, which gives us the animal position in video coordinates (using pixel units), which we then tranform into canonical coordinates (using centimeters) through use of a homography transform.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -12,7 +21,6 @@ To use all of the available functions in this package, the following external co
 
 * Neuralynx MATLAB Netcom Utilities -- https://neuralynx.com/software/category/matlab-netcom-utilities
 * boxplotGroupv2 -- https://www.mathworks.com/matlabcentral/fileexchange/74437-boxplotgroup
-* Colormaps
 * Distinguishable Colors -- https://www.mathworks.com/matlabcentral/fileexchange/29702-generate-maximally-perceptually-distinct-colors
 * CellReg -- https://github.com/zivlab/CellReg
 * CNMF_E -- https://github.com/zhoupc/CNMF_E
@@ -108,7 +116,6 @@ Each experiment requires a file named 'experiment_description.json'. This file c
 ## Authors
 
 * **Marc Normandin** - *Developer, Muzzio Lab* - [Marc Normandin](https://github.com/marcnormandin)
-* **Celia Gagliardi** - *Developer, Muzzio Lab* - [Celia Gagliardi](https://github.com/celiagagliardi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
