@@ -8,8 +8,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Neuralynx MATLAB Netcom Utilities -- Download from https://neuralynx.com/software/category/matlab-netcom-utilities
+To use all of the available functions in this package, the following external code must also be used. I recommend only downloading what is specifically needed for your use.
 
+* Neuralynx MATLAB Netcom Utilities -- https://neuralynx.com/software/category/matlab-netcom-utilities
+* boxplotGroupv2 -- https://www.mathworks.com/matlabcentral/fileexchange/74437-boxplotgroup
+* Colormaps
+* Distinguishable Colors -- https://www.mathworks.com/matlabcentral/fileexchange/29702-generate-maximally-perceptually-distinct-colors
+* CellReg -- https://github.com/zivlab/CellReg
+* CNMF_E -- https://github.com/zhoupc/CNMF_E
+* MiniscopeAnalysis_CNMF_E -- https://github.com/marcnormandin/MiniscopeAnalysis_CNMF_E
+* NoRMCorre -- https://github.com/flatironinstitute/NoRMCorre
+* homography_solve & homography_transform functions -- https://www.mathworks.com/matlabcentral/answers/26141-homography-matrix
 ```
 Add the external libraries to the MATLAB search path
 ```
