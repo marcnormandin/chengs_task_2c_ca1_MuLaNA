@@ -2,6 +2,8 @@
 
 This is a set of neuroscience analysis codes written mostly in MATLAB. Different projects use a common set of codes and this repository is that set.
 
+***This version of MuLaNA has the codes used for our Cheng's Task 2C CA1 paper***
+
 The codes work with the following experimental data sources:
 
 * Tetrode neural data acquired by Neuralynx Cheetah.
