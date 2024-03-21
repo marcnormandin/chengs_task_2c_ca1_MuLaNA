@@ -1,6 +1,6 @@
 # MuLaNA -- Muzzio Lab Neuroscience Analysis
 
-This is a set of neuroscience analysis codes written mostly in MATLAB.
+This is a set of neuroscience analysis codes written mostly in MATLAB. Different projects use a common set of codes and this repository is that set.
 
 ## Getting Started
 
