@@ -115,7 +115,7 @@ Each experiment requires a file named 'experiment_description.json'. This file c
 ```
 ## Authors
 
-* **Marc Normandin** - *Developer, Muzzio Lab* - [Marc Normandin](https://github.com/marcnormandin)
+* **Marc Normandin** - *Postdoctoral Fellow, Muzzio Lab* - [Marc Normandin](https://github.com/marcnormandin)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
